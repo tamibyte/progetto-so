@@ -10,7 +10,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-// Defines
+// Constants
+#define MAX_INPUT_LENGTH 100
 #define MAX_LENGTH_NAMES 30
 
 #define MAX_BLOCKS 256

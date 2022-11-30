@@ -2,9 +2,11 @@ CC=gcc
 CCOPTS=--std=gnu99 -Wall -g
 
 HEADERS=common.h\
-	disk.h
+	disk.h\
+	filesystem.h
 
-OBJS=disk.o
+OBJS=disk.o\
+	filesystem.o
 
 LIBS=libs.a
 
